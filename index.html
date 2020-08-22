@@ -8,15 +8,35 @@
 
 <body id="gradient">
 <h1>Background Generator</h1>
-<input type="color" name="color1" class="color1">
-<input type="color" name="color2" class="color2"><br>
 
-<input type="button" name="randomColors" id="random" value="Random Colors!">
-<h2>Current CSS Background</h2>
+
+
+<br>
+<div class="color-picker">
+
+    <input type="color" name="color1" class="color1">
+    <input type="color" name="color2" class="color2">
+
+</div>
+
+<div id="angle-picker">
+    <label for="deg">Angle of gradient:</label>
+-90<input type="range" id="deg" name="deg" min="-90" max="180">180
+</div>
+
+<div id="current">
+    <h2>Current CSS Background</h2>
 <h3></h3>
 
+</div>
 
+
+
+<br><br>
+
+<input type="button" name="randomColors" id="random" value="Randomize!">
     <script src="script.js"></script>
+
 </body>
 
 
